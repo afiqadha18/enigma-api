@@ -1,27 +1,11 @@
 const router = require('express').Router();
-const user = require('../controllers/user');
+const upload = require('../controllers/upload/excelUpload');
 
-router.route("/getUser")
-    .get((req, res) => {
-        user.getUser(req, res);
-})
-
-router.route("/addUser")
+router.route("/fileUpload")
     .post((req, res) => {
-        let data = req.body;
-        user.addUser(req, res, data)
-    })
-
-router.route("/editUser")
-    .put((req, res) => {
-        let data = req.body;
-        user.editUser(req, res, data)
-    })
-
-router.route("/deleteUser")
-    .delete((req, res) => {
-        let userId = req.query.userId;
-        user.deleteUser(req, res, userId);
-    })
+        let data = JSON.parse(req.body.data);
+        let file = req.files.attachment;
+        upload.uploadExcel(req, res, file, data);
+})
 
 module.exports = router;

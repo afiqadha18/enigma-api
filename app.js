@@ -30,9 +30,11 @@ app.get('/', (req, res) => {
     res.sendFile('index.html', { root: __dirname });
 })
 
-const userRoutes = require('./routes/upload.routes');
+const userRoutes = require('./routes/user.routes');
+const uploadRoutes = require('./routes/upload.routes');
 
 app.use('/api/user', userRoutes);
+app.use('/api/upload', uploadRoutes);
 
 app.listen(PORT, () => {
     console.log('Listening on port :' + PORT);
