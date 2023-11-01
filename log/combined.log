@@ -1,0 +1,172 @@
+{"level":"info","message":"Adding new list of user with userId:11","meta":{"trace":"user.js"},"timestamp":"Oct-31-2023 04:23:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Oct-31-2023 14:11:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Oct-31-2023 16:58:50"}
+{"level":"error","message":"(conn=260, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:36:12"}
+{"level":"error","message":"(conn=265, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:37:20"}
+{"level":"error","message":"(conn=270, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:37:42"}
+{"level":"error","message":"(conn=275, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:38:42"}
+{"level":"error","message":"(conn=280, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:41:28"}
+{"level":"error","message":"(conn=302, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-session (uploadedBy, uploadedOn, remarks) VALUES (1, '2023-10-31', 'testing ...' at line 1\nsql: INSERT INTO upload-session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:[1,'2023-10-31','testing upload data']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload-session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:[1,'2023-10-31','testing upload data']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-session (uploadedBy, uploadedOn, remarks) VALUES (1, '2023-10-31', 'testing ...' at line 1","sqlState":"42000"},"query":"INSERT INTO upload-session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 19:56:38"}
+{"level":"error","message":"data is not iterable","meta":{"err":{},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 19:58:20"}
+{"level":"error","message":"(conn=318, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (2, '127.0.0.1', 60, 'active')' at line 1\nsql: INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[2,'127.0.0.1',60,'active']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[2,'127.0.0.1',60,'active']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (2, '127.0.0.1', 60, 'active')' at line 1","sqlState":"42000"},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:00:52"}
+{"level":"error","message":"(conn=323, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (3, '127.0.0.1', 60, 'active')' at line 1\nsql: INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[3,'127.0.0.1',60,'active']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[3,'127.0.0.1',60,'active']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (3, '127.0.0.1', 60, 'active')' at line 1","sqlState":"42000"},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:01:43"}
+{"level":"error","message":"(conn=328, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (4, '127.0.0.1', 60, 'active')' at line 1\nsql: INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[4,'127.0.0.1',60,'active']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[4,'127.0.0.1',60,'active']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (4, '127.0.0.1', 60, 'active')' at line 1","sqlState":"42000"},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:02:44"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_5.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_6.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_7.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_8.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:01:22"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_2.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:01:22"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:01:22"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:02:23"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_3.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:02:23"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:02:23"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:16:35"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_4.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:16:35"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:16:35"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:18:27"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_5.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:18:27"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:18:27"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:20:07"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_6.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:20:07"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:20:07"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:28:26"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_7.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:28:26"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:28:26"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:46"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_8.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:46"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:46"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:55"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_9.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:55"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:55"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:30:56"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_10.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:30:56"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:30:56"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:47:05"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_11.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:47:05"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:47:05"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:58:55"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_12.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:58:55"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:58:55"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:00:22"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_13.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:00:22"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:00:22"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:01:27"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_14.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:01:27"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:01:27"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:03:39"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_15.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:03:39"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:03:39"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:26"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_16.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:26"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:26"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:40"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_17.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:40"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:40"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:05:50"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_18.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:05:50"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:05:50"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:06:59"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_19.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:06:59"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:06:59"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:08:20"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_20.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:08:20"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:08:20"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:10:48"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_21.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:10:48"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:10:48"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:11:13"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_22.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:11:13"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:11:13"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:12:00"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_23.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:12:00"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:12:00"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
