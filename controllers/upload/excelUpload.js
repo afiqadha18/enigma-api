@@ -2,8 +2,9 @@
 const excelToJson = require('convert-excel-to-json');
 const db = require('../../config/db');
 const logger = require('../../log/logger');
-const fs = require('fs');
 const dotenv = require('dotenv').config();
+const file_helper = require('../../helper/file');
+const ipValidator = require('../../helper/ipValidator');
 
 let filePath = process.env.UPLOAD_PATH;
 
@@ -12,7 +13,7 @@ exports.uploadExcel = async (req, res, file, data) => {
     if (!data) res.status(400).json({ message: 'Data not found!'});
 
     let runningNo = await getRunningNo(file.name);
-    let new_filename = file.name.split('.')[0] + '_' + runningNo + '.' + await getFileExtension(file.name);
+    let new_filename = file_helper.getRawFileName(file.name) + '_' + runningNo + '.' + file_helper.getFileExtension(file.name);
     let fileDir = process.env.UPLOAD_PATH + new_filename;
     let isSave = await saveUploadedFile(file, fileDir);
 
@@ -31,13 +32,20 @@ exports.uploadExcel = async (req, res, file, data) => {
     });
 
     if (result.Sheet1.length == 0) res.status(200).json({ message: 'No data extracted!'}); 
+    let areInvaild = await checkIpAddressValidity(result.Sheet1); 
+    if (areInvaild.length > 0) {
+        return res.status(400).json({ 
+            message: 'Invalid ip address found! Please fix those ip addresses.', 
+            data: areInvaild 
+        });
+    }
 
     let session_query = await getInsertQuery('session');
     let session_id = await executeInsertQuery('session', session_query, data, null);
     let data_query = await getInsertQuery('data');
     await executeInsertQuery('data', data_query, result.Sheet1, session_id);
 
-    res.status(200).json({ message: 'file uploaded successfully' });
+    return res.status(200).json({ message: 'file uploaded successfully' });
 }
 
 async function getInsertQuery(type) {
@@ -126,7 +134,12 @@ async function updateFileRunningNo(filename, runningNo) {
     }
 }
 
-async function getFileExtension(filename) {
-    let ext = filename.split('.').pop();
-    return ext;
+async function checkIpAddressValidity(ipArray) {
+    let invalidArray = [];
+    for (const each of ipArray) {
+        let status = await ipValidator.validateIp(each.ipaddress);
+        if (!status) invalidArray.push(each.ipaddress);
+    }
+
+    return invalidArray;
 }
