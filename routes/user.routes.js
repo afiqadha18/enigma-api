@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const user = require('../controllers/user');
+const checkAuth = require('../middleware/check-auth')
 
 router.route("/getUser")
-    .get((req, res) => {
+    .get(checkAuth,(req, res) => {
         user.getUser(req, res);
 })
 
@@ -18,9 +19,9 @@ router.route("/editUser")
         user.editUser(req, res, data)
     })
 
-router.route("/deleteUser")
+router.route("/deleteUser/:userId")
     .delete((req, res) => {
-        let userId = req.query.userId;
+        let userId = req.params.userId;
         user.deleteUser(req, res, userId);
     })
 

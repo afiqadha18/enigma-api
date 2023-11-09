@@ -32,8 +32,10 @@ app.get('/', (req, res) => {
 
 const userRoutes = require('./routes/user.routes');
 const uploadRoutes = require('./routes/upload.routes');
+const loginRoutes = require('./routes/auth.routes')
 
 app.use('/api/user', userRoutes);
+app.use('/api/login', loginRoutes);
 app.use('/api/upload', uploadRoutes);
 
 app.listen(PORT, () => {
