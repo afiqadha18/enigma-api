@@ -35,11 +35,13 @@ exports.login = async (req, res)=>{
         //     })
         // }
         const token = jwt.sign(
-            {username: rows.username, userId: rows.userID},
+            {username: rows[0].username, userId: rows[0].userID},
             'secret-test-login-ikhmal',
             {expiresIn: '1h'});
         res.status(200).json({
-            token: token
+            token: token,
+            expiresIn: 3600,
+            userId: rows[0].userID
         });
 
     } catch (error) {
