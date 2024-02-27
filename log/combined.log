@@ -316,3 +316,15 @@
 {"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:36"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:57"}
 {"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-01-2024 23:09:31"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-01-2024 23:09:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:16:43"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:16:46"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:16:55"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:19:00"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:19:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:19:30"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:19:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:41"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:23:43"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:46"}

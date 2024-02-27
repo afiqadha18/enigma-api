@@ -67,9 +67,9 @@ exports.addUser = async (req, res, data) => {
 
 exports.editUser = async (req, res, data) => {
   try {
-    console.log('Adding new user............................');
-    let query = 'UPDATE user_table SET email = ?, password = ? WHERE userId = ?';
-    let rows = await db.query(query, [data.email, data.password, data.userId]);
+    console.log('Edit user............................'+ data.userID);
+    let query = 'UPDATE user_account SET email = ?, role = ?, status = ? WHERE userId = ?';
+    let rows = await db.query(query, [data.email, data.role, data.status, data.userID]);
     console.log(rows);
     logger.info('Update user details of userId:' + data.userId, { meta: { trace: 'user.js' }});
     res.status(200).json({

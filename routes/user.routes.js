@@ -2,6 +2,12 @@ const router = require('express').Router();
 const user = require('../controllers/user');
 const checkAuth = require('../middleware/check-auth')
 
+router.route("/changePasswordFirstLogin")
+    .post(checkAuth, (req, res) => {
+        let data = req.body;
+        user.changePassword(req,res, data)
+    })
+
 router.route("/getUser/:userId")
     .get(checkAuth,(req,res) => {
         let userId = req.params.userId;

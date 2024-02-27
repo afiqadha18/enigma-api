@@ -7,6 +7,7 @@ const jwt = require('jsonwebtoken');
 exports.login = async (req, res)=>{
     try{
         console.log('User Login .......................');
+        var firstTimeLogin = false;
         let query = 'SELECT * FROM user_account where username = ?';
         console.log("req : " + req.body.username )
         console.log("req : " + req.body.password )
@@ -27,13 +28,10 @@ exports.login = async (req, res)=>{
             })
         }
         //check for firstime login
-        // if(rows[0].firstTimeLogin === "Y"){
-        //     console.log("first time login");
-        //     return res.status(200)
-        //     .json({
-        //         message: "prompt change password"
-        //     })
-        // }
+        if(rows[0].firstTimeLogin === "Y"){
+            console.log("first time login");
+            firstTimeLogin = true;
+        }
         const token = jwt.sign(
             {username: rows[0].username, userId: rows[0].userID},
             'secret-test-login-ikhmal',
@@ -41,7 +39,8 @@ exports.login = async (req, res)=>{
         res.status(200).json({
             token: token,
             expiresIn: 3600,
-            userId: rows[0].userID
+            userId: rows[0].userID,
+            firstTimeLogin: firstTimeLogin
         });
 
     } catch (error) {
