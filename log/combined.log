@@ -328,3 +328,10 @@
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:41"}
 {"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:23:43"}
 {"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-28-2024 15:27:12"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 00:01:38"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 00:02:45"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:22"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:18:50"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:19:02"}

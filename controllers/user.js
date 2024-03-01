@@ -3,6 +3,25 @@ const logger = require('../log/logger');
 const uuid = require('uuid');
 const bcrypt = require('bcrypt');
 
+exports.changePassword = async(req, res, data) =>{
+  try{
+    console.log('Change First Time Password...........................'+ data.password);
+    let query = 'UPDATE user_account SET password = ?, firstTimeLogin = ?  where userID = ?'
+    bcrypt.hash(data.password,10)
+    .then(async hash =>{
+      hashPassword = hash;
+      console.log('user hash password: '+ hashPassword);
+      let rows = await db.query(query,[hashPassword, "N" ,data.userID]);
+      console.log(rows);
+      logger.info('Change First Time Password', { meta: { trace: 'user.js' }});
+      res.status(200).json({ 'message': 'Update user Password successfully'});
+    });
+  } catch {
+    logger.error(error.message, { meta: { trace: 'user.js', err: error, query: query }});
+    res.status(400).send(error.message);
+  }
+}
+
 exports.getUser = async(req, res , userId) =>{
   try {
     console.log('Getting user based on ID.......................');
