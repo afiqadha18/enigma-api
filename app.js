@@ -32,9 +32,13 @@ app.get('/', (req, res) => {
 
 const userRoutes = require('./routes/user.routes');
 const uploadRoutes = require('./routes/upload.routes');
+const activityRoutes = require('./routes/activity.routes');
+const bgpRoutes = require('./routes/bgp.routes');
 
 app.use('/api/user', userRoutes);
 app.use('/api/upload', uploadRoutes);
+app.use('/api/logs', activityRoutes);
+app.use('/api/bgp', bgpRoutes);
 
 app.listen(PORT, () => {
     console.log('Listening on port :' + PORT);

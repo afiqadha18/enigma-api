@@ -5,6 +5,7 @@ const upload = require('../controllers/upload/uploadData');
 
 router.route("/fileUpload")
     .post((req, res) => {
+        // console.log(req);
         let data = JSON.parse(req.body.data);
         let file = req.files.attachment;
         excel.uploadExcel(req, res, file, data);

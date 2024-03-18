@@ -1,9 +1,11 @@
+const moment = require('moment');
+
 exports.getCurrentDate = () => {
     let now = moment(new Date()).format('YYYY-MM-DD');
     return now;
 }
 
-exports.getCurrentTimestamp = () => {
+exports.getCurrentTimestamp = function () {
     let nowTime = moment(new Date()).format('YYYY-MM-DD HH:mm:ss');
     return nowTime;
 }

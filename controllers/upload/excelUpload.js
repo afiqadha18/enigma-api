@@ -5,6 +5,7 @@ const logger = require('../../log/logger');
 const dotenv = require('dotenv').config();
 const file_helper = require('../../helper/file');
 const ipValidator = require('../../helper/ipValidator');
+const activityLog = require('../activity/activityLog');
 
 let filePath = process.env.UPLOAD_PATH;
 
@@ -32,18 +33,31 @@ exports.uploadExcel = async (req, res, file, data) => {
     });
 
     if (result.Sheet1.length == 0) res.status(200).json({ message: 'No data extracted!'}); 
+
     let areInvaild = await checkIpAddressValidity(result.Sheet1); 
+    let areDuplicates = await checkIpDuplication(result.Sheet1);
+
     if (areInvaild.length > 0) {
-        return res.status(400).json({ 
+        activityLog.recordLog('admin', 'blackhole', 'start', 'Invalid ip address found', 'Excel file uploaded for ip blackhole!');
+        return res.status(200).json({ 
             message: 'Invalid ip address found! Please fix those ip addresses.', 
             data: areInvaild 
         });
+    }
+
+    if (areDuplicates.length > 0) {
+        activityLog.recordLog('admin', 'blackhole', 'start', 'Duplicate ip address found', 'Excel file uploaded for ip blackhole!');
+        return res.status(200).json({ 
+            message: 'Duplicates IP Address found! Please fix those ip addresses.', 
+            data: areDuplicates
+        }); 
     }
 
     let session_query = await getInsertQuery('session');
     let session_id = await executeInsertQuery('session', session_query, data, null);
     let data_query = await getInsertQuery('data');
     await executeInsertQuery('data', data_query, result.Sheet1, session_id);
+    activityLog.recordLog('admin', 'blackhole', 'start', null, 'Excel file uploaded for ip blackhole!');
 
     return res.status(200).json({ message: 'file uploaded successfully' });
 }
@@ -142,4 +156,28 @@ async function checkIpAddressValidity(ipArray) {
     }
 
     return invalidArray;
+}
+
+async function checkIpDuplication(ipArray) {
+    let duplicatesIp = [];
+    let existingIps = await getExisitngIps();
+    if (existingIps) duplicatesIp = ipArray.filter(value => existingIps.some(oneElement => oneElement.ip_address === value.ipaddress));
+    // console.log(duplicates);
+
+    return duplicatesIp;
+}
+
+async function getExisitngIps() {
+    return new Promise((res, rej) => {
+        try {
+            let query = 'SELECT ip_address FROM upload_data';
+            let rows = db.query(query);
+
+            if (rows.length != 0) res(rows);
+            else res(false);
+
+        } catch (err) {
+            rej(err);
+        }
+    })
 }
