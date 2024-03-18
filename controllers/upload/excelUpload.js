@@ -5,6 +5,7 @@ const logger = require('../../log/logger');
 const dotenv = require('dotenv').config();
 const file_helper = require('../../helper/file');
 const ipValidator = require('../../helper/ipValidator');
+const activityLog = require('../activity/activityLog');
 
 let filePath = process.env.UPLOAD_PATH;
 
@@ -37,6 +38,7 @@ exports.uploadExcel = async (req, res, file, data) => {
     let areDuplicates = await checkIpDuplication(result.Sheet1);
 
     if (areInvaild.length > 0) {
+        activityLog.recordLog('admin', 'blackhole', 'start', 'Invalid ip address found', 'Excel file uploaded for ip blackhole!');
         return res.status(200).json({ 
             message: 'Invalid ip address found! Please fix those ip addresses.', 
             data: areInvaild 
@@ -44,6 +46,7 @@ exports.uploadExcel = async (req, res, file, data) => {
     }
 
     if (areDuplicates.length > 0) {
+        activityLog.recordLog('admin', 'blackhole', 'start', 'Duplicate ip address found', 'Excel file uploaded for ip blackhole!');
         return res.status(200).json({ 
             message: 'Duplicates IP Address found! Please fix those ip addresses.', 
             data: areDuplicates
@@ -54,6 +57,7 @@ exports.uploadExcel = async (req, res, file, data) => {
     let session_id = await executeInsertQuery('session', session_query, data, null);
     let data_query = await getInsertQuery('data');
     await executeInsertQuery('data', data_query, result.Sheet1, session_id);
+    activityLog.recordLog('admin', 'blackhole', 'start', null, 'Excel file uploaded for ip blackhole!');
 
     return res.status(200).json({ message: 'file uploaded successfully' });
 }
