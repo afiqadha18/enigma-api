@@ -170,3 +170,174 @@
 {"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
 {"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
 {"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 15:40:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:33:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:36:20"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:37:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:38:15"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:39:38"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:40:26"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:41:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:42:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:43:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:53:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:53:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:54:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:45:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:48:09"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:51:47"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:52:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:52:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:58:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 00:02:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 11:46:27"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:06:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:07:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:09:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:59:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:01:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:02:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:08:20"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:14:27"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:14:32"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:19:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:20:20"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:20:49"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:21:07"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:25:40"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:30:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:32:04"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:32:57"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:33:06"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:34:53"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:35:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:09:52"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:10:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:12:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:12:21"}
+{"level":"info","message":"Deleting user of userId:57144a3e-c019-4fcc-8112-0f5b3521374e","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:21:26"}
+{"level":"info","message":"Deleting user of userId:6848afb8-ef9f-4f5c-84d2-2aa4874f6afe","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:21:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:39:39"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:39:55"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:43:41"}
+{"level":"info","message":"Deleting user of userId:9daed86e-617d-4a87-b421-ea09bec2659f","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:46:02"}
+{"level":"info","message":"Deleting user of userId:80adead5-ca30-40f2-81c2-c5f477d4152c","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:46:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:46:06"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:47:42"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:48:46"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-18-2023 16:55:28"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-18-2023 17:09:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-20-2023 14:38:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 15:10:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 16:11:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 23:17:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 23:45:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:16:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:16:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:17:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:19:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:19:30"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:19:32"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:47:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:48:39"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:50:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:52:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:54:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:58:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 12:00:05"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 14:49:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:10:28"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:10:43"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:11:18"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:11:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-04-2023 00:52:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 10:53:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 14:14:26"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 14:15:00"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-05-2023 15:15:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 15:20:49"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:29:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:33:26"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-05-2023 16:33:27"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-05-2023 16:36:38"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:36:44"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:36:48"}
+{"level":"info","message":"Deleting user of userId:823c5ffe-1d1a-4547-8055-d64708764836","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:37:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 11:50:33"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 11:50:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 11:51:06"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 11:51:08"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 11:51:56"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 11:51:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 19:58:33"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 19:58:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:31:03"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:31:05"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:32:41"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:32:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:35:22"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:35:24"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:54:30"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:54:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:55:26"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:55:28"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:17:11"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 17:17:12"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:18:19"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 17:18:20"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:18:20"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 17:18:33"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:18:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:08"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:03:10"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:10"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:42"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:03:43"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:43"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:12:13"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:12:14"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:12:33"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:12:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:32:21"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:32:22"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:32:28"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:05"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:10"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:16"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:28"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:36:10"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:36:12"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:36:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:16"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:17"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:20"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:35"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:36"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:57"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-01-2024 23:09:31"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-01-2024 23:09:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:16:43"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:16:46"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:16:55"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:19:00"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:19:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:19:30"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:19:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:41"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:23:43"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-28-2024 15:27:12"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 00:01:38"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 00:02:45"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:22"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:18:50"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:19:02"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Mar-09-2024 18:20:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-09-2024 18:21:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:06:53"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Mar-23-2024 16:06:54"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:07:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:07:16"}
