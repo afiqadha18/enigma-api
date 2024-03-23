@@ -35,12 +35,16 @@ const uploadRoutes = require('./routes/upload.routes');
 const activityRoutes = require('./routes/activity.routes');
 const bgpRoutes = require('./routes/bgp.routes');
 const whitelistRoutes = require('./routes/whitelist.routes');
+const loginRoutes = require('./routes/auth.routes');
+const roleRoutes = require('./routes/role.routes');
 
 app.use('/api/user', userRoutes);
+app.use('/api/login', loginRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/logs', activityRoutes);
 app.use('/api/bgp', bgpRoutes);
 app.use('/api/whitelist', whitelistRoutes);
+app.use('/api/role', roleRoutes);
 
 app.listen(PORT, () => {
     console.log('Listening on port :' + PORT);

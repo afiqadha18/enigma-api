@@ -1,149 +1,343 @@
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-18-2024 21:10:40"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-18-2024 21:11:16"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-18-2024 21:11:28"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-18-2024 22:30:25"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-18-2024 22:36:01"}
-{"level":"info","message":"Activity recorded with for id: 4","meta":{"trace":"activityLog.js"},"timestamp":"Mar-18-2024 22:36:01"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-18-2024 22:42:33"}
-{"level":"info","message":"Activity recorded with for id: 5","meta":{"trace":"activityLog.js"},"timestamp":"Mar-18-2024 22:42:33"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-18-2024 22:43:59"}
-{"level":"info","message":"Activity recorded with for id: 6","meta":{"trace":"activityLog.js"},"timestamp":"Mar-18-2024 22:43:59"}
-{"level":"error","message":"Cannot read properties of undefined (reading 'split')","meta":{"err":{},"trace":"peering.js"},"timestamp":"Mar-18-2024 22:51:30"}
-{"level":"error","message":"Cannot read properties of undefined (reading 'split')","meta":{"err":{},"trace":"peering.js"},"timestamp":"Mar-18-2024 22:51:32"}
-{"level":"error","message":"Cannot read properties of undefined (reading 'split')","meta":{"err":{},"trace":"peering.js"},"timestamp":"Mar-18-2024 22:52:32"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-18-2024 22:53:59"}
-{"level":"info","message":"Activity recorded with for id: 7","meta":{"trace":"activityLog.js"},"timestamp":"Mar-18-2024 22:53:59"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-19-2024 00:56:02"}
-{"level":"info","message":"Activity recorded with for id: 8","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 00:56:02"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-19-2024 02:27:31"}
-{"level":"info","message":"Activity recorded with for id: 9","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 02:27:31"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 02:28:55"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 04:19:29"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 04:19:32"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-19-2024 05:15:08"}
-{"level":"error","message":"res is not defined","meta":{"err":{},"trace":"peering.js"},"timestamp":"Mar-19-2024 05:15:08"}
-{"level":"info","message":"Activity recorded with for id: 10","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:15:08"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-19-2024 05:16:03"}
-{"level":"info","message":"Activity recorded with for id: 11","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:16:03"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:21:01"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:29:03"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:30:49"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:30:51"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-19-2024 05:32:07"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-19-2024 05:32:20"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-19-2024 05:32:23"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-21-2024 03:32:27"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 03:32:30"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 03:32:55"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-21-2024 03:34:49"}
-{"level":"info","message":"Activity recorded with for id: 12","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 03:34:49"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-21-2024 03:36:01"}
-{"level":"info","message":"Activity recorded with for id: 13","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 03:36:01"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-21-2024 03:36:52"}
-{"level":"info","message":"Activity recorded with for id: 14","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 03:36:52"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 03:53:14"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-21-2024 03:53:38"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-21-2024 04:07:19"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:14:52"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:16:47"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 03:17:18"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:19:12"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 03:19:54"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:20:33"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:21:43"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 03:21:46"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-23-2024 03:24:39"}
-{"level":"info","message":"Activity recorded with for id: 15","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 03:24:39"}
-{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-23-2024 03:24:42"}
-{"level":"info","message":"Activity recorded with for id: 16","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 03:24:42"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 03:24:46"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:24:47"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:25:18"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:26:57"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:26:58"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:27:49"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:31:07"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:32:06"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:36:32"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:37:15"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:37:46"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:38:52"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:39:32"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:39:40"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:40:40"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:40:41"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:40:49"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:42:08"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:43:20"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:44:43"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:45:44"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:46:17"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:49:36"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:49:42"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:54:28"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:55:26"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 03:56:06"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:01:50"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:02:58"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:03:02"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:03:07"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:03:19"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:03:30"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:03:36"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:03:39"}
-{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Mar-23-2024 04:06:13"}
-{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Mar-23-2024 04:08:49"}
-{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Mar-23-2024 04:11:55"}
-{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Mar-23-2024 04:11:55"}
-{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Mar-23-2024 04:11:55"}
-{"level":"info","message":"Activity recorded with for id: 17","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:11:55"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:17:20"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:21:22"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:21:41"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:22:15"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:22:25"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:26:05"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:26:56"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:28:37"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:29:11"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:29:52"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:31:10"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:31:21"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:32:27"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:33:32"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:41:15"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:41:29"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:43:09"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:43:10"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:43:55"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:45:21"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:46:08"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 04:46:20"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:46:27"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:47:11"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 04:47:14"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 05:03:10"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 05:03:32"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 05:03:50"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 05:10:22"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 06:08:54"}
-{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 07:04:32"}
-{"level":"info","message":"Activity recorded with for id: 18","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:04:32"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:05:41"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 07:11:28"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 07:11:34"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:11:35"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:11:38"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:12:28"}
-{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 07:18:22"}
-{"level":"info","message":"Activity recorded with for id: 19","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:18:22"}
-{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 07:19:51"}
-{"level":"info","message":"Activity recorded with for id: 20","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:19:51"}
-{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 07:20:47"}
-{"level":"info","message":"Activity recorded with for id: 21","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:20:47"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:21:05"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:26:10"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 07:26:11"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 07:26:40"}
-{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 16:55:29"}
-{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 16:56:08"}
+{"level":"info","message":"Adding new list of user with userId:11","meta":{"trace":"user.js"},"timestamp":"Oct-31-2023 04:23:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Oct-31-2023 14:11:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Oct-31-2023 16:58:50"}
+{"level":"error","message":"(conn=260, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:36:12"}
+{"level":"error","message":"(conn=265, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:37:20"}
+{"level":"error","message":"(conn=270, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:37:42"}
+{"level":"error","message":"(conn=275, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1","sqlState":"42000"},"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:38:42"}
+{"level":"error","message":"(conn=280, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-runningNo WHERE filename = 'bgp-ip.xlsx'' at line 1\nsql: SELECT MAX(runningNo) AS runningNo FROM file-runningNo WHERE filename = ? - parameters:['bgp-ip.xlsx']","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 17:41:28"}
+{"level":"error","message":"(conn=302, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-session (uploadedBy, uploadedOn, remarks) VALUES (1, '2023-10-31', 'testing ...' at line 1\nsql: INSERT INTO upload-session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:[1,'2023-10-31','testing upload data']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload-session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:[1,'2023-10-31','testing upload data']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-session (uploadedBy, uploadedOn, remarks) VALUES (1, '2023-10-31', 'testing ...' at line 1","sqlState":"42000"},"query":"INSERT INTO upload-session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 19:56:38"}
+{"level":"error","message":"data is not iterable","meta":{"err":{},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 19:58:20"}
+{"level":"error","message":"(conn=318, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (2, '127.0.0.1', 60, 'active')' at line 1\nsql: INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[2,'127.0.0.1',60,'active']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[2,'127.0.0.1',60,'active']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (2, '127.0.0.1', 60, 'active')' at line 1","sqlState":"42000"},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:00:52"}
+{"level":"error","message":"(conn=323, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (3, '127.0.0.1', 60, 'active')' at line 1\nsql: INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[3,'127.0.0.1',60,'active']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[3,'127.0.0.1',60,'active']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (3, '127.0.0.1', 60, 'active')' at line 1","sqlState":"42000"},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:01:43"}
+{"level":"error","message":"(conn=328, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (4, '127.0.0.1', 60, 'active')' at line 1\nsql: INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[4,'127.0.0.1',60,'active']","meta":{"err":{"code":"ER_PARSE_ERROR","errno":1064,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?) - parameters:[4,'127.0.0.1',60,'active']","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-address, duration, status) VALUES (4, '127.0.0.1', 60, 'active')' at line 1","sqlState":"42000"},"query":"INSERT INTO upload_data (sessionId, ip-address, duration, status) VALUES (?, ?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:02:44"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_5.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:28"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 6","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 20:25:29"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_6.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 7","meta":{"trace":"excelUpload.js"},"timestamp":"Oct-31-2023 22:07:11"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_7.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 8","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:30:23"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_8.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 9","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:56:34"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 10","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 00:57:58"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:01:22"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_2.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:01:22"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:01:22"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:02:23"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_3.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:02:23"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:02:23"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:16:35"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_4.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:16:35"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:16:35"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:18:27"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_5.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:18:27"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:18:27"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:20:07"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_6.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:20:07"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:20:07"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:28:26"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_7.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:28:26"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:28:26"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:46"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_8.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:46"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:46"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:55"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_9.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:55"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:29:55"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:30:56"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_10.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:30:56"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:30:56"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:47:05"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_11.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:47:05"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:47:05"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:58:55"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_12.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:58:55"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 01:58:55"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:00:22"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_13.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:00:22"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:00:22"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:01:27"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_14.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:01:27"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:01:27"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:03:39"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_15.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:03:39"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:03:39"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:26"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_16.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:26"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:26"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:40"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_17.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:40"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:04:40"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:05:50"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_18.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:05:50"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:05:50"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:06:59"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_19.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:06:59"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:06:59"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:08:20"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_20.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:08:20"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:08:20"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:10:48"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_21.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:10:48"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:10:48"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:11:13"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_22.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:11:13"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:11:13"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:12:00"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_23.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:12:00"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:12:00"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 1","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:16:49"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Nov-01-2023 02:17:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 15:40:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:33:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:36:20"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:37:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:38:15"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:39:38"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:40:26"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:41:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:42:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:43:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:53:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:53:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 16:54:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:45:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:48:09"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:51:47"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:52:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:52:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-05-2023 23:58:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 00:02:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 11:46:27"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:06:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:07:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:09:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 14:59:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:01:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:02:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:08:20"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:14:27"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:14:32"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 15:19:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:20:20"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:20:49"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:21:07"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:25:40"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:30:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:32:04"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:32:57"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:33:06"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:34:53"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 16:35:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:09:52"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:10:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:12:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:12:21"}
+{"level":"info","message":"Deleting user of userId:57144a3e-c019-4fcc-8112-0f5b3521374e","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:21:26"}
+{"level":"info","message":"Deleting user of userId:6848afb8-ef9f-4f5c-84d2-2aa4874f6afe","meta":{"trace":"user.js"},"timestamp":"Nov-06-2023 17:21:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:39:39"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:39:55"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:43:41"}
+{"level":"info","message":"Deleting user of userId:9daed86e-617d-4a87-b421-ea09bec2659f","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:46:02"}
+{"level":"info","message":"Deleting user of userId:80adead5-ca30-40f2-81c2-c5f477d4152c","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:46:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:46:06"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:47:42"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-07-2023 16:48:46"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-18-2023 16:55:28"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-18-2023 17:09:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-20-2023 14:38:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 15:10:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 16:11:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 23:17:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-21-2023 23:45:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:16:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:16:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:17:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:19:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:19:30"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-24-2023 16:19:32"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:47:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:48:39"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:50:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:52:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:54:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 11:58:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-27-2023 12:00:05"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 14:49:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:10:28"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:10:43"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:11:18"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Nov-28-2023 15:11:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-04-2023 00:52:48"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 10:53:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 14:14:26"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 14:15:00"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-05-2023 15:15:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 15:20:49"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:29:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:33:26"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-05-2023 16:33:27"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-05-2023 16:36:38"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:36:44"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:36:48"}
+{"level":"info","message":"Deleting user of userId:823c5ffe-1d1a-4547-8055-d64708764836","meta":{"trace":"user.js"},"timestamp":"Dec-05-2023 16:37:29"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 11:50:33"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 11:50:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 11:51:06"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 11:51:08"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 11:51:56"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 11:51:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-06-2023 19:58:33"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-06-2023 19:58:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:31:03"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:31:05"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:32:41"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:32:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:35:22"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:35:24"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:54:30"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:54:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 15:55:26"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 15:55:28"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:17:11"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 17:17:12"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:18:19"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 17:18:20"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:18:20"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-11-2023 17:18:33"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-11-2023 17:18:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:08"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:03:10"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:10"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:42"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:03:43"}
+{"level":"info","message":"Getting user information","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:03:43"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:12:13"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:12:14"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:12:33"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:12:34"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:32:21"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:32:22"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:32:28"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:05"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:10"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:16"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:28"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:34:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-12-2023 16:36:10"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:36:12"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-12-2023 16:36:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:16"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:17"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:20"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:35"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:36"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Dec-13-2023 15:18:57"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Dec-13-2023 15:18:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-01-2024 23:09:31"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-01-2024 23:09:41"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:16:43"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:16:46"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:16:55"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:19:00"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:19:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:19:30"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:19:31"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:41"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Jan-08-2024 23:23:43"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Jan-08-2024 23:23:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-28-2024 15:27:12"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 00:01:38"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 00:02:45"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:22"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:18:50"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:19:02"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Mar-09-2024 18:20:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-09-2024 18:21:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:06:53"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Mar-23-2024 16:06:54"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:07:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:07:16"}
