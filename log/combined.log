@@ -335,3 +335,9 @@
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:10:46"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:18:50"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Feb-29-2024 23:19:02"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Mar-09-2024 18:20:54"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-09-2024 18:21:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:06:53"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Mar-23-2024 16:06:54"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:07:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 16:07:16"}

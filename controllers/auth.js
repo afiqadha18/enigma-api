@@ -20,27 +20,33 @@ exports.login = async (req, res)=>{
                 message: "Username Invalid"
             })
         }
-        if(!(bcrypt.compare(req.body.password, rows[0].password))){
-            console.log("incorrect password");
-            return res.status(400)
-            .json({
-                message: "Password Incorrect"
-            })
-        }
-        //check for firstime login
-        if(rows[0].firstTimeLogin === "Y"){
-            console.log("first time login");
-            firstTimeLogin = true;
-        }
-        const token = jwt.sign(
-            {username: rows[0].username, userId: rows[0].userID},
-            'secret-test-login-ikhmal',
-            {expiresIn: '1h'});
-        res.status(200).json({
-            token: token,
-            expiresIn: 3600,
-            userId: rows[0].userID,
-            firstTimeLogin: firstTimeLogin
+        console.log("pasword retreive: " +bcrypt.compare(req.body.password, rows[0].password)); 
+        bcrypt.compare(req.body.password, rows[0].password, function(err, respond){
+            if(err){
+
+            }
+            console.log("status: "+respond);
+            if(respond){
+                //check for firstime login
+                if(rows[0].firstTimeLogin === "Y"){
+                    console.log("first time login");
+                    firstTimeLogin = true;
+                }
+                const token = jwt.sign(
+                    {username: rows[0].username, userId: rows[0].userID},
+                    'secret-test-login-ikhmal',
+                    {expiresIn: '1h'});
+                res.status(200).json({
+                        token: token,
+                        expiresIn: 3600,
+                        userId: rows[0].userID,
+                        firstTimeLogin: firstTimeLogin
+                    });
+            }else{
+                console.log("incorrect password");
+                return res.status(400)
+                .json({message: "Incorrect Password"})
+            }
         });
 
     } catch (error) {
