@@ -50,7 +50,7 @@ exports.login = async (req, res)=>{
         });
 
     } catch (error) {
-        logger.error(error.message, { meta: { trace: 'user.js', err: error, query: query }});
+        logger.error(error.message, { meta: { trace: 'user.js', err: error }});
         res.status(400).send(error.message);
     }
 }

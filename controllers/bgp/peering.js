@@ -84,8 +84,8 @@ exports.deletePeering = async (peerId, res) => {
         let query = 'DELETE FROM peering_data WHERE peerId = ?';
         let rows = await db.query(query, [peerId]);
 
-        activityLog.recordLog(updatedBy, 'bgp', 'deleted', null, `BGP Peering data with peerId ${rows.inserId} has been deleted`);
-        logger.info('Insert new bgp peer with peerId: ' + rows.inserId, { meta: { trace: 'peering.js' }});
+        activityLog.recordLog(updatedBy, 'bgp', 'deleted', null, `BGP Peering data with peerId ${peerId} has been deleted`);
+        logger.info('Delete bgp peer with peerId: ' + peerId, { meta: { trace: 'peering.js' }});
 
         return res.status(200).json({ message: 'Data has been deleted successfully!' });
         

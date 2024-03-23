@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const whitelist = require('../controllers/whitelist/whitelisting');
+const checkAuth = require('../middleware/check-auth')
 
 router.route('/ipWhitelist')
     .get((req, res) => {
@@ -8,13 +9,10 @@ router.route('/ipWhitelist')
     .post((req, res) => {
         whitelist.addWhitelist(req.body, res);
     })
-//     .put((req, res) => {
-//         bgp.editPeering(req.body, res);
-//     })
 
-// router.route('/ipWhitelist/:id')
-//     .delete((req, res) => {
-//         bgp.deletePeering(req.params.id, res);
-//     })
+router.route('/ipWhitelist/:id')
+    .delete(checkAuth, (req, res) => {
+        whitelist.deleteWhitelist(req, res, req.params.id);
+    })
 
 module.exports = router;
