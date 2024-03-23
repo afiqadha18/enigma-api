@@ -1,13 +1,13 @@
 const router = require('express').Router();
 const whitelist = require('../controllers/whitelist/whitelisting');
-const checkAuth = require('../middleware/check-auth')
+const checkAuth = require('../middleware/check-auth');
 
 router.route('/ipWhitelist')
     .get((req, res) => {
         whitelist.getWhitelisted(req, res);
     })
-    .post((req, res) => {
-        whitelist.addWhitelist(req.body, res);
+    .post(checkAuth, (req, res) => {
+        whitelist.addWhitelist(req, res, req.body);
     })
 
 router.route('/ipWhitelist/:id')

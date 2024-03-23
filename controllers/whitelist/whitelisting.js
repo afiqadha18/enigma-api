@@ -5,13 +5,14 @@ const activityLog = require('../activity/activityLog');
 const dateHelper = require('../../helper/dateParser');
 
 exports.getWhitelisted = async (req, res) => {
-    let query = 'SELECT * FROM whitelist_data';
+    // let query = 'SELECT * FROM whitelist_data';
+    let query = 'SELECT listId, ipAddress, description, (SELECT username FROM user_account WHERE userID = addedBy) AS addedBy, addedDate FROM whitelist_data';
     let rows = await db.query(query);
 
     res.status(200).json({ data: rows });
 }
 
-exports.addWhitelist = async (data, res) => {
+exports.addWhitelist = async (req, res, data) => {
     try {
         let isValid = await ipValidator.validateIp(data.ipAddress);
         if (!isValid) return res.status(400).json({ error: `Invalid ip address ${data.ipAddress}`});
@@ -22,8 +23,8 @@ exports.addWhitelist = async (data, res) => {
         let query = 'INSERT INTO whitelist_data (ipAddress, description, addedBy, addedDate) VALUES (?, ?, ?, ?)';
         let rows = await db.query(query, [data.ipAddress, data.description, data.addedBy, data.addedDate]);
 
-        activityLog.recordLog('system_test', 'whitelist', 'active', null, 'IP Whitelist added through user entry');
-        logger.info('Insert new ip whitelist with listId: ' + rows.inserId, { meta: { trace: 'whitelisting.js' }});
+        activityLog.recordLog(req.userData.userID, 'whitelist', 'active', null, 'IP Whitelist added through user entry');
+        logger.info('Insert new ip whitelist with listId: ' + rows.insertId, { meta: { trace: 'whitelisting.js' }});
 
         return res.status(200).json({ message: 'Data has been added successfully!' })
     } catch (err) {
@@ -33,15 +34,13 @@ exports.addWhitelist = async (data, res) => {
 
 exports.deleteWhitelist = async (req, res, listId) => {
     try {
-        console.log(req.userData);
-        return;
         let isExist = await checkWhitelistExist(listId);
         if (!isExist) return res.status(400).json({ error: 'Data not found!'});
 
         let query = 'DELETE FROM whitelist_data WHERE listId = ?';
         let rows = await db.query(query, [listId]);
 
-        activityLog.recordLog(req.userData.userId, 'whitelist', 'deleted', null, `IP Whitelist data with listId ${listId} has been deleted`);
+        activityLog.recordLog(req.userData.userID, 'whitelist', 'deleted', null, `IP Whitelist data with listId ${listId} has been deleted`);
         logger.info('Delete whitelist data with listId: ' + listId, { meta: { trace: 'whitelisting.js' }});
 
         return res.status(200).json({ message: 'Data has been deleted successfully!' });

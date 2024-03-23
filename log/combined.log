@@ -397,3 +397,140 @@
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 17:36:42"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 17:36:43"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 17:36:45"}
+{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 18:28:56"}
+{"level":"info","message":"Activity recorded with for id: 22","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 18:28:56"}
+{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 18:35:08"}
+{"level":"info","message":"Activity recorded with for id: 23","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 18:35:08"}
+{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 18:37:58"}
+{"level":"info","message":"Activity recorded with for id: 24","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 18:37:58"}
+{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 18:45:38"}
+{"level":"info","message":"Activity recorded with for id: 25","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 18:45:38"}
+{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 18:57:45"}
+{"level":"info","message":"Activity recorded with for id: 26","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 18:57:45"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:21:42"}
+{"level":"info","message":"Delete whitelist data with listId: 5","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 20:32:46"}
+{"level":"info","message":"Activity recorded with for id: 27","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:32:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:36:38"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:36:40"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:36:42"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:36:44"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:36:45"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:36:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 20:38:03"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:38:05"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:39:15"}
+{"level":"info","message":"Delete whitelist data with listId: 4","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 20:41:19"}
+{"level":"info","message":"Activity recorded with for id: 28","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:41:19"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:41:42"}
+{"level":"info","message":"Delete whitelist data with listId: 3","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 20:42:20"}
+{"level":"info","message":"Activity recorded with for id: 29","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:42:20"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 20:42:24"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 21:29:08"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 21:29:13"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 21:29:19"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 22:26:42"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 22:26:43"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 23:34:40"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 23:57:00"}
+{"level":"info","message":"Insert new ip whitelist with listId: undefined","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-23-2024 23:57:49"}
+{"level":"info","message":"Activity recorded with for id: 30","meta":{"trace":"activityLog.js"},"timestamp":"Mar-23-2024 23:57:49"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 23:58:25"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 23:58:26"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-23-2024 23:58:32"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 00:04:38"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 00:04:39"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:04:46"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-24-2024 00:21:29"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Mar-24-2024 00:21:47"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Mar-24-2024 00:21:53"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 00:22:17"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:22:38"}
+{"level":"info","message":"Insert new ip whitelist with listId: 8","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-24-2024 00:32:27"}
+{"level":"info","message":"Activity recorded with for id: 31","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:32:27"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:32:34"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:36:42"}
+{"level":"info","message":"Insert new ip whitelist with listId: 9","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-24-2024 00:37:18"}
+{"level":"info","message":"Activity recorded with for id: 1","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:37:18"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:45:47"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:45:50"}
+{"level":"info","message":"Delete whitelist data with listId: 9","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-24-2024 00:46:01"}
+{"level":"info","message":"Activity recorded with for id: 2","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:46:01"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:46:04"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:46:36"}
+{"level":"info","message":"Delete whitelist data with listId: 6","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-24-2024 00:46:53"}
+{"level":"info","message":"Activity recorded with for id: 3","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:46:53"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 00:46:56"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:09:46"}
+{"level":"info","message":"Activity recorded with for id: 4","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:09:46"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:10:10"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:10:32"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:10:55"}
+{"level":"info","message":"Activity recorded with for id: 5","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:10:55"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:11:13"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:11:48"}
+{"level":"info","message":"Delete bgp peer with peerId: 8","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:11:54"}
+{"level":"info","message":"Activity recorded with for id: 6","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:11:54"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:11:56"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:13:03"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:13:22"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:13:23"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:23:45"}
+{"level":"info","message":"Activity recorded with for id: 7","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:23:45"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:24:35"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:26:01"}
+{"level":"info","message":"Activity recorded with for id: 8","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:26:01"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:40:16"}
+{"level":"info","message":"Activity recorded with for id: 9","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:40:16"}
+{"level":"info","message":"Insert new bgp peer with peerId: 3","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:41:52"}
+{"level":"info","message":"Activity recorded with for id: 10","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:41:52"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:45:40"}
+{"level":"info","message":"Activity recorded with for id: 11","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:45:40"}
+{"level":"info","message":"Insert new bgp peer with peerId: 4","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:46:37"}
+{"level":"info","message":"Activity recorded with for id: 12","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:46:37"}
+{"level":"info","message":"Insert new bgp peer with peerId: 4","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:48:54"}
+{"level":"info","message":"Activity recorded with for id: 13","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:48:54"}
+{"level":"info","message":"Insert new bgp peer with peerId: 4","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:50:23"}
+{"level":"info","message":"Activity recorded with for id: 14","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:50:23"}
+{"level":"info","message":"Insert new bgp peer with peerId: 4","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:50:33"}
+{"level":"info","message":"Activity recorded with for id: 15","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:50:33"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:51:00"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:51:17"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 01:51:25"}
+{"level":"info","message":"Insert new bgp peer with peerId: 3","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:51:44"}
+{"level":"info","message":"Activity recorded with for id: 16","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:51:44"}
+{"level":"info","message":"Insert new bgp peer with peerId: 3","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 01:51:53"}
+{"level":"info","message":"Activity recorded with for id: 17","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:51:53"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 01:52:50"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-24-2024 01:53:24"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:53:30"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:54:25"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 01:54:53"}
+{"level":"info","message":"Delete whitelist data with listId: 8","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-24-2024 02:00:07"}
+{"level":"info","message":"Activity recorded with for id: 18","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:00:07"}
+{"level":"info","message":"Insert new ip whitelist with listId: 10","meta":{"trace":"whitelisting.js"},"timestamp":"Mar-24-2024 02:00:23"}
+{"level":"info","message":"Activity recorded with for id: 19","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:00:23"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 02:01:43"}
+{"level":"info","message":"Activity recorded with for id: 20","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:01:43"}
+{"level":"info","message":"Insert new bgp peer with peerId: 5","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 02:02:32"}
+{"level":"info","message":"Activity recorded with for id: 21","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:02:32"}
+{"level":"info","message":"Delete bgp peer with peerId: 4","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 02:02:49"}
+{"level":"info","message":"Activity recorded with for id: 22","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:02:49"}
+{"level":"info","message":"Insert new bgp peer with peerId: undefined","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 02:04:40"}
+{"level":"info","message":"Activity recorded with for id: 23","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:04:40"}
+{"level":"info","message":"Insert new bgp peer with peerId: 6","meta":{"trace":"peering.js"},"timestamp":"Mar-24-2024 02:04:57"}
+{"level":"info","message":"Activity recorded with for id: 24","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:04:57"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:06:33"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-24-2024 02:06:59"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:07:01"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:07:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-24-2024 02:08:05"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:08:07"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:08:12"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:08:14"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:08:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-24-2024 02:08:18"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:08:19"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:16:01"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:16:29"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:16:31"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:16:36"}

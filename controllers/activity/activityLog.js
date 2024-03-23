@@ -7,7 +7,7 @@ const moment = require('moment');
 exports.recordLog = async (username, eventName, execution, error, remarks) => {
     let query;
     try {
-        query = 'INSERT INTO activity_log (activityDate, username, events, execution, error, remarks) VALUES (?, ?, ?, ?, ?, ?)';
+        query = 'INSERT INTO activity_log (activityDate, actionBy, events, execution, error, remarks) VALUES (?, ?, ?, ?, ?, ?)';
         // console.log(query);
         let rows = await db.query(query, [dateHelper.getCurrentTimestamp(), username, eventName, execution, error, remarks]);
         logger.info('Activity recorded with for id: ' + rows.insertId, { meta: { trace: 'activityLog.js' }});
@@ -19,7 +19,7 @@ exports.recordLog = async (username, eventName, execution, error, remarks) => {
 }
 
 exports.getActivityLogs = async (res) => {
-    let query = 'SELECT * FROM activity_log';
+    let query = 'SELECT id, activityDate, (SELECT username FROM user_account WHERE userID = actionBy) AS username, events, execution, error, remarks FROM activity_log';
     let rows = await db.query(query);
     
     logger.info('Getting list of activity logs', { meta: { trace: 'activityLog.js' }});
