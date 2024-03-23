@@ -1,0 +1,9 @@
+{"level":"error","message":"Cannot read properties of undefined (reading 'password')","meta":{"err":{},"trace":"user.js"},"timestamp":"Mar-23-2024 17:48:25"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'password')","meta":{"err":{},"trace":"user.js"},"timestamp":"Mar-23-2024 17:51:04"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'password')","meta":{"err":{},"trace":"user.js"},"timestamp":"Mar-23-2024 17:51:25"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'password')","meta":{"err":{},"trace":"user.js"},"timestamp":"Mar-23-2024 17:52:18"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'password')","meta":{"err":{},"trace":"user.js"},"timestamp":"Mar-23-2024 17:52:52"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 18:04:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 18:04:38"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 18:08:51"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Mar-23-2024 18:09:13"}

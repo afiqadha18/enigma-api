@@ -3,6 +3,7 @@ const logger = require('../log/logger');
 const uuid = require('uuid');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const { Console } = require('winston/lib/winston/transports');
 
 exports.login = async (req, res)=>{
     try{
@@ -12,8 +13,8 @@ exports.login = async (req, res)=>{
         console.log("req : " + req.body.username )
         console.log("req : " + req.body.password )
         let rows = await db.query(query,[req.body.username]);
-        console.log(rows[0].password);
-        if(rows === ""){
+        console.log(Object.keys(rows).length);
+        if(Object.keys(rows).length === 0){
             console.log("cant find username");
             return res.status(400)
             .json({
@@ -40,6 +41,7 @@ exports.login = async (req, res)=>{
                         token: token,
                         expiresIn: 3600,
                         userId: rows[0].userID,
+                        username: rows[0].username,
                         firstTimeLogin: firstTimeLogin
                     });
             }else{
@@ -50,7 +52,8 @@ exports.login = async (req, res)=>{
         });
 
     } catch (error) {
-        logger.error(error.message, { meta: { trace: 'user.js', err: error, query: query }});
+        console.log("error Message: "+error.message);
+        logger.error(error.message, { meta: { trace: 'user.js', err: error}});
         res.status(400).send(error.message);
     }
 }
