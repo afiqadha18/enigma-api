@@ -39,16 +39,16 @@ exports.uploadExcel = async (req, res, file, data) => {
 
     if (areInvaild.length > 0) {
         activityLog.recordLog('admin', 'blackhole', 'start', 'Invalid ip address found', 'Excel file uploaded for ip blackhole!');
-        return res.status(200).json({ 
-            message: 'Invalid ip address found! Please fix those ip addresses.', 
+        return res.status(400).json({ 
+            error: 'Invalid ip address found! Please fix those ip addresses.', 
             data: areInvaild 
         });
     }
 
     if (areDuplicates.length > 0) {
         activityLog.recordLog('admin', 'blackhole', 'start', 'Duplicate ip address found', 'Excel file uploaded for ip blackhole!');
-        return res.status(200).json({ 
-            message: 'Duplicates IP Address found! Please fix those ip addresses.', 
+        return res.status(409).json({ 
+            error: 'Duplicates IP Address found! Please fix those ip addresses.', 
             data: areDuplicates
         }); 
     }

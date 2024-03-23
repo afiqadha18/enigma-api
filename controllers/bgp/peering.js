@@ -13,17 +13,23 @@ exports.getPeeringList = async (res) => {
 
 exports.addPeering = async (data, res) => {
     try {
-        let isValid = await ipValidator.validateIp(data.peerIp);
-        if (!isValid) return res.status(400).json({ error: 'Invalid ip address!'});
+        let isValid = await ipValidator.validateIp(data.peerAddress);
+        if (!isValid) return res.status(400).json({ error: `Invalid ip address ${data.peerAddress}`});
 
-        let isExist = await checkDuplicatePeer(data.peerId);
-        if (isExist) return res.status(409).json({ error: 'Duplicate Peer IP Address found!' });
+        // let isExist = await checkDuplicatePeer(data.peerAddress);
+        // if (isExist) return res.status(409).json({ error: `Duplicate Peer IP Address found ${data.peerAddress}`});
+
+        let isHopValid = await ipValidator.validateIp(data.nextHopIp);
+        if (!isHopValid) return res.status(400).json({ error: `Invalid next hop ip address ${data.nextHopIp}`});
+
+        let isBgpValid = await ipValidator.validateBgpCommunity(data.bgpCommunity);
+        if (!isBgpValid) return res.status(400).json({ error: `Invalid bgp community ${data.bgpCommunity}`});
 
         data.updatedBy = 'system_test';
         let currentTime = dateHelper.getCurrentTimestamp();
         let query = `INSERT INTO peering_data (peerName, peerAddress, peerAsn, localAsn, nextHopIp, bgpCommunity, bgpPassword, dataCenter, status, lastUpdatedBy, lastUpdatedOn)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`;
-        let rows = await db.query(query, [data.peerName, data.peerIp, data.peerAsn, data.localAsn, data.nextHopIp, data.bgpCommunity, data.bgpPassword, data.dataCenter,
+        let rows = await db.query(query, [data.peerName, data.peerAddress, data.peerAsn, data.localAsn, data.nextHopIp, data.bgpCommunity, data.bgpPassword, data.dataCenter,
         'active', data.updatedBy, currentTime]);
 
         activityLog.recordLog(data.updatedBy, 'bgp', 'active', null, 'BGP Peering added through user entry');
@@ -39,23 +45,29 @@ exports.addPeering = async (data, res) => {
 
 exports.editPeering = async (data, res) => {
     try {
-        let isValid = await ipValidator.validateIp(data.peerIp);
-        if (!isValid) return res.status(400).json({ error: 'Invalid ip address!'});
+        let isValid = await ipValidator.validateIp(data.peerAddress);
+        if (!isValid) return res.status(400).json({ error: `Invalid ip address ${data.peerAddress}`});
+
+        let isHopValid = await ipValidator.validateIp(data.nextHopIp);
+        if (!isHopValid) return res.status(400).json({ error: `Invalid next hop ip address ${data.nextHopIp}`});
+
+        let isBgpValid = await ipValidator.validateBgpCommunity(data.bgpCommunity);
+        if (!isBgpValid) return res.status(400).json({ error: `Invalid bgp community ${data.bgpCommunity}`});
 
         let isExist = await checkPeerExist(data.peerId);
-        if (isExist) {
-            data.updatedBy = 'system_test';
-            let currentTime = dateHelper.getCurrentTimestamp();
-            let query = `UPDATE peering_data SET peerName = ?, peerAddress = ?, peerAsn = ?, localAsn = ?, nextHopIp = ?, bgpCommunity = ?, bgpPassword = ?, dataCenter = ?,
-            status = ?, lastUpdatedBy = ?, lastUpdatedOn = ? WHERE peerId = ?`;
-            let rows = await db.query(query, [data.peerName, data.peerIp, data.peerAsn, data.localAsn, data.nextHopIp, data.bgpCommunity, data.bgpPassword, data.dataCenter, 
-            data.status, data.updatedBy, currentTime, data.peerId]);
+        if (!isExist) return res.status(404).json({ error: 'Peer does not exist' })
+       
+        data.updatedBy = 'system_test';
+        let currentTime = dateHelper.getCurrentTimestamp();
+        let query = `UPDATE peering_data SET peerName = ?, peerAddress = ?, peerAsn = ?, localAsn = ?, nextHopIp = ?, bgpCommunity = ?, bgpPassword = ?, dataCenter = ?,
+        status = ?, lastUpdatedBy = ?, lastUpdatedOn = ? WHERE peerId = ?`;
+        let rows = await db.query(query, [data.peerName, data.peerAddress, data.peerAsn, data.localAsn, data.nextHopIp, data.bgpCommunity, data.bgpPassword, data.dataCenter, 
+        data.status, data.updatedBy, currentTime, data.peerId]);
 
-            activityLog.recordLog(data.updatedBy, 'bgp', data.status, null, `BGP Peering data with peerId ${rows.inserId} has been updated`);
-            logger.info('Insert new bgp peer with peerId: ' + rows.inserId, { meta: { trace: 'peering.js' }});
+        activityLog.recordLog(data.updatedBy, 'bgp', data.status, null, `BGP Peering data with peerId ${rows.inserId} has been updated`);
+        logger.info('Insert new bgp peer with peerId: ' + rows.inserId, { meta: { trace: 'peering.js' }});
 
-            return res.status(200).json({ message: 'Data has been updated successfully!' })
-        } else return res.status(404).json({ error: 'Peer does not exist' })
+        return res.status(200).json({ message: 'Data has been updated successfully!' })
 
     } catch (err) {
         console.error(err);
@@ -63,11 +75,11 @@ exports.editPeering = async (data, res) => {
     }
 }
 
-exports.deletePeering = async (peerId) => {
+exports.deletePeering = async (peerId, res) => {
     try {
         let updatedBy = 'system_test';
         let isExist = await checkPeerExist(peerId);
-        if (!isExist) return res.status(404).json({ message: 'Data not found!' });
+        if (!isExist) return res.status(404).json({ error: 'Data not found!' });
 
         let query = 'DELETE FROM peering_data WHERE peerId = ?';
         let rows = await db.query(query, [peerId]);
@@ -76,6 +88,7 @@ exports.deletePeering = async (peerId) => {
         logger.info('Insert new bgp peer with peerId: ' + rows.inserId, { meta: { trace: 'peering.js' }});
 
         return res.status(200).json({ message: 'Data has been deleted successfully!' });
+        
     } catch (err) {
         console.error(err);
         logger.error(err.message, { meta: { trace: 'peering.js', err: err }});

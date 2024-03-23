@@ -11,7 +11,7 @@ exports.addIp = async (req, res, data) => {
         let areInvaild = await checkIpAddressValidity(addresses); 
         if (areInvaild.length > 0) {
             activityLog.recordLog('admin', 'blackhole', 'start', 'Invalid ip address found', 'Blackhole ip adderess added through user entry');
-            return res.status(200).json({ 
+            return res.status(400).json({ 
                 message: 'Invalid ip address found! Please fix those ip addresses.', 
                 data: areInvaild 
             });

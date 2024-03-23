@@ -12,3 +12,14 @@ exports.validateIp = async (ipaddress) => {
 
     return isValid;
 }
+
+exports.validateBgpCommunity = async (bgpCommunity) => {
+    let isValid = true;
+    let bgp = bgpCommunity.split(':');
+
+    if (!bgp[0] || !bgp[1]) return isValid = false;
+    if (parseInt(bgp[0]) < 1 || parseInt(bgp[1]) < 1) return isValid = false;
+    if (parseInt(bgp[0]) > 999999 || parseInt(bgp[1]) > 999999) return isValid = false;
+
+    return isValid;
+}

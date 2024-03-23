@@ -11,8 +11,10 @@ router.route('/bgpPeer')
     .put((req, res) => {
         bgp.editPeering(req.body, res);
     })
+
+router.route('/bgpPeer/:id')
     .delete((req, res) => {
-        bgp.deletePeering(req.params.id);
+        bgp.deletePeering(req.params.id, res);
     })
 
 module.exports = router;
