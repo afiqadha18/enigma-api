@@ -96,7 +96,9 @@ exports.editUser = async (req, res, data) => {
     });
   } catch (error) {
     logger.error(error.message, { meta: { trace: 'user.js', err: error }});
-    res.status(400).send(error.message);
+    res.status(400).json({
+      'message': 'Update user unsuccessfully'
+    });
   }
 }
 
