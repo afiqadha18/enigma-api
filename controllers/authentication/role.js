@@ -1,5 +1,5 @@
-const db = require('../config/db');
-const logger = require('../log/logger');
+const db = require('../../config/db');
+const logger = require('../../log/logger');
 exports.getRoles = async (req, res) => {
     try {
       console.log('Getting Role.......................');

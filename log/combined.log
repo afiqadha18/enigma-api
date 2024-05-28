@@ -534,3 +534,98 @@
 {"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:16:29"}
 {"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Mar-24-2024 02:16:31"}
 {"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Mar-24-2024 02:16:36"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-03-2024 16:47:52"}
+{"level":"info","message":"Deleting user of userId:AUTO_INCREMENT","meta":{"trace":"user.js"},"timestamp":"Apr-03-2024 16:47:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-20-2024 19:01:23"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-20-2024 19:01:29"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Apr-20-2024 19:01:32"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-20-2024 19:01:52"}
+{"level":"info","message":"Deleting user of userId:c185b597-c488-4eb1-ac1d-3babfe4fa4a2","meta":{"trace":"user.js"},"timestamp":"Apr-20-2024 19:02:09"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:22:34"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-25-2024 00:22:35"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:23:02"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:23:51"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-25-2024 00:23:53"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:29:35"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-25-2024 00:29:37"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:35:20"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-25-2024 00:35:35"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:35:50"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-25-2024 00:35:58"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Apr-25-2024 00:36:35"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:36:39"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Apr-25-2024 00:36:44"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-07-2024 22:58:48"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-07-2024 22:58:50"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"May-07-2024 22:59:09"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-07-2024 22:59:14"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-07-2024 22:59:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-07-2024 22:59:21"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-07-2024 22:59:30"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-07-2024 22:59:32"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"May-26-2024 18:35:58"}
+{"level":"info","message":"Activity recorded with for id: 25","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:35:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:37:11"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:37:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:37:40"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-26-2024 18:37:42"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:38:11"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:39:05"}
+{"level":"info","message":"Deleting user of userId:87c379a9-7add-44a6-9d60-b342d119412a","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:39:10"}
+{"level":"info","message":"Delete user with userId: 87c379a9-7add-44a6-9d60-b342d119412a","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:39:10"}
+{"level":"info","message":"Activity recorded with for id: 26","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:39:10"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:39:15"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:39:57"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-26-2024 18:39:58"}
+{"level":"info","message":"Adding new list of user with userId:0","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:40:15"}
+{"level":"info","message":"Added user with userId: fb339ee1-0735-4f10-bbec-db5001df1bb1","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:40:15"}
+{"level":"info","message":"Activity recorded with for id: 27","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:40:15"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:40:18"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:40:25"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-26-2024 18:40:34"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:40:36"}
+{"level":"error","message":"userId is not defined","meta":{"err":{},"trace":"user.js"},"timestamp":"May-26-2024 18:40:36"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:40:50"}
+{"level":"error","message":"userId is not defined","meta":{"err":{},"trace":"user.js"},"timestamp":"May-26-2024 18:40:50"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:40:57"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:40:58"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:41:01"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:46:20"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-26-2024 18:46:23"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:46:26"}
+{"level":"error","message":"userId is not defined","meta":{"err":{},"trace":"user.js"},"timestamp":"May-26-2024 18:46:26"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:47:19"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:47:22"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:47:32"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-26-2024 18:47:35"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:47:38"}
+{"level":"error","message":"userId is not defined","meta":{"err":{},"trace":"user.js"},"timestamp":"May-26-2024 18:47:38"}
+{"level":"info","message":"Update user details of userId:undefined","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:47:53"}
+{"level":"info","message":"update user with userId: undefined","meta":{"trace":"user.js"},"timestamp":"May-26-2024 18:47:53"}
+{"level":"info","message":"Activity recorded with for id: 28","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:47:53"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"May-26-2024 18:47:56"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"May-28-2024 15:07:13"}
+{"level":"info","message":"Activity recorded with for id: 29","meta":{"trace":"activityLog.js"},"timestamp":"May-28-2024 15:07:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 15:07:15"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"May-28-2024 15:52:25"}
+{"level":"info","message":"Activity recorded with for id: 30","meta":{"trace":"activityLog.js"},"timestamp":"May-28-2024 15:52:25"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"May-28-2024 16:31:13"}
+{"level":"info","message":"Activity recorded with for id: 31","meta":{"trace":"activityLog.js"},"timestamp":"May-28-2024 16:31:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 16:31:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 16:33:38"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-28-2024 16:33:44"}
+{"level":"error","message":"(conn=2787, no: 1146, SQLState: 42S02) Table 'ip_blacklist_dev.user_accounts' doesn't exist\nsql: UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','L1','Active','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","meta":{"err":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','L1','Active','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","sqlMessage":"Table 'ip_blacklist_dev.user_accounts' doesn't exist","sqlState":"42S02"},"trace":"user.js"},"timestamp":"May-28-2024 16:33:47"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 16:34:53"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-28-2024 16:34:58"}
+{"level":"error","message":"(conn=2786, no: 1146, SQLState: 42S02) Table 'ip_blacklist_dev.user_accounts' doesn't exist\nsql: UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','L1','Active','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","meta":{"err":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','L1','Active','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","sqlMessage":"Table 'ip_blacklist_dev.user_accounts' doesn't exist","sqlState":"42S02"},"trace":"user.js"},"timestamp":"May-28-2024 16:35:00"}
+{"level":"error","message":"(conn=2787, no: 1146, SQLState: 42S02) Table 'ip_blacklist_dev.user_accounts' doesn't exist\nsql: UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','L1','Inactive','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","meta":{"err":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','L1','Inactive','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","sqlMessage":"Table 'ip_blacklist_dev.user_accounts' doesn't exist","sqlState":"42S02"},"trace":"user.js"},"timestamp":"May-28-2024 16:36:17"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 16:36:37"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 16:37:43"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-28-2024 16:37:48"}
+{"level":"error","message":"(conn=2787, no: 1146, SQLState: 42S02) Table 'ip_blacklist_dev.user_accounts' doesn't exist\nsql: UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','M1','Inactive','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","meta":{"err":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','M1','Inactive','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","sqlMessage":"Table 'ip_blacklist_dev.user_accounts' doesn't exist","sqlState":"42S02"},"trace":"user.js"},"timestamp":"May-28-2024 16:37:50"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 16:39:13"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"May-28-2024 16:39:18"}
+{"level":"error","message":"(conn=2786, no: 1146, SQLState: 42S02) Table 'ip_blacklist_dev.user_accounts' doesn't exist\nsql: UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','M1','Inactive','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","meta":{"err":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"UPDATE user_accounts SET email = ?, role = ?, status = ? WHERE userId = ? - parameters:['ikhmalhijjaz72@gmail.com','M1','Inactive','ead54988-ee81-47a9-bc8f-bc2bf7f21c1c']","sqlMessage":"Table 'ip_blacklist_dev.user_accounts' doesn't exist","sqlState":"42S02"},"trace":"user.js"},"timestamp":"May-28-2024 16:39:20"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"May-28-2024 22:08:03"}
+{"level":"info","message":"Activity recorded with for id: 32","meta":{"trace":"activityLog.js"},"timestamp":"May-28-2024 22:08:03"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 22:08:05"}

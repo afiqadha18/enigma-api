@@ -1,8 +1,9 @@
-const db = require('../config/db');
-const logger = require('../log/logger');
+const db = require('../../config/db');
+const logger = require('../../log/logger');
 const uuid = require('uuid');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const activityLog = require('../activity/activityLog');
 const { Console } = require('winston/lib/winston/transports');
 
 exports.login = async (req, res)=>{
@@ -37,6 +38,8 @@ exports.login = async (req, res)=>{
                     {username: rows[0].username, userId: rows[0].userID},
                     'secret-test-login-ikhmal',
                     {expiresIn: '1h'});
+                activityLog.recordLog(rows[0].userID, 'user', 'login', null, `User login with UserId ${rows[0].userID}`);
+                logger.info('User login with userId: ' + rows[0].userID, { meta: { trace: 'login.js' }});
                 res.status(200).json({
                         token: token,
                         expiresIn: 3600,
@@ -46,14 +49,14 @@ exports.login = async (req, res)=>{
                     });
             }else{
                 console.log("incorrect password");
-                return res.status(400)
+                return res.status(401)
                 .json({message: "Incorrect Password"})
             }
         });
 
     } catch (error) {
         console.log("error Message: "+error.message);
-        logger.error(error.message, { meta: { trace: 'user.js', err: error}});
+        logger.error(error.message, { meta: { trace: 'login.js', err: error}});
         res.status(400).send(error.message);
     }
 }

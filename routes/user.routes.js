@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const user = require('../controllers/user');
+const user = require('../controllers/authentication/user');
 const checkAuth = require('../middleware/check-auth')
 
 router.route("/changePasswordFirstLogin")

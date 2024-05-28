@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const role = require('../controllers/role');
+const role = require('../controllers/authentication/role');
 const checkAuth = require('../middleware/check-auth')
 
 router.route("/getRole")
