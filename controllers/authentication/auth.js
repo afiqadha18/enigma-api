@@ -45,7 +45,8 @@ exports.login = async (req, res)=>{
                         expiresIn: 3600,
                         userId: rows[0].userID,
                         username: rows[0].username,
-                        firstTimeLogin: firstTimeLogin
+                        firstTimeLogin: firstTimeLogin,
+                        role: rows[0].role
                     });
             }else{
                 console.log("incorrect password");

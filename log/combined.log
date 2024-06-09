@@ -629,3 +629,21 @@
 {"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"May-28-2024 22:08:03"}
 {"level":"info","message":"Activity recorded with for id: 32","meta":{"trace":"activityLog.js"},"timestamp":"May-28-2024 22:08:03"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"May-28-2024 22:08:05"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:48:08"}
+{"level":"info","message":"Activity recorded with for id: 33","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:48:08"}
+{"level":"info","message":"User login with userId: 7440c9e7-25b0-4166-adb0-6c92cf69e1fa","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:48:50"}
+{"level":"info","message":"Activity recorded with for id: 34","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:48:50"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jun-10-2024 00:52:20"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:52:30"}
+{"level":"info","message":"Activity recorded with for id: 35","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:52:30"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jun-10-2024 00:52:32"}
+{"level":"info","message":"User login with userId: 6f05275f-278f-4970-bac3-9dd66a0bb820","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:53:29"}
+{"level":"info","message":"Activity recorded with for id: 36","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:53:29"}
+{"level":"info","message":"Change First Time Password","meta":{"trace":"user.js"},"timestamp":"Jun-10-2024 00:53:45"}
+{"level":"info","message":"Change password first time user with userId: 6f05275f-278f-4970-bac3-9dd66a0bb820","meta":{"trace":"user.js"},"timestamp":"Jun-10-2024 00:53:45"}
+{"level":"info","message":"Activity recorded with for id: 37","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:53:45"}
+{"level":"info","message":"User login with userId: 6f05275f-278f-4970-bac3-9dd66a0bb820","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:54:01"}
+{"level":"info","message":"Activity recorded with for id: 38","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:54:01"}
+{"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:54:16"}
+{"level":"info","message":"Activity recorded with for id: 39","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:54:16"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jun-10-2024 00:54:18"}
