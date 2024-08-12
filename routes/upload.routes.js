@@ -14,6 +14,8 @@ router.route("/fileUpload")
 router.route("/addIp")
     .post((req, res) => {
         let data = req.body;
+        // console.log(data);
+        
         ipManager.addIp(req, res, data);
     })
 

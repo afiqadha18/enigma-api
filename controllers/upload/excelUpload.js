@@ -13,6 +13,7 @@ exports.uploadExcel = async (req, res, file, data) => {
     if (!file) res.status(400).json({ message: 'File not found!' });
     if (!data) res.status(400).json({ message: 'Data not found!'});
 
+    console.log(file);
     let runningNo = await getRunningNo(file.name);
     let new_filename = file_helper.getRawFileName(file.name) + '_' + runningNo + '.' + file_helper.getFileExtension(file.name);
     let fileDir = process.env.UPLOAD_PATH + new_filename;
@@ -31,6 +32,7 @@ exports.uploadExcel = async (req, res, file, data) => {
             '*': '{{columnHeader}}'
         }
     });
+    console.log(result);
 
     if (result.Sheet1.length == 0) res.status(200).json({ message: 'No data extracted!'}); 
 

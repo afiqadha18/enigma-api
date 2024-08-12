@@ -647,3 +647,219 @@
 {"level":"info","message":"User login with userId: ead54988-ee81-47a9-bc8f-bc2bf7f21c1c","meta":{"trace":"login.js"},"timestamp":"Jun-10-2024 00:54:16"}
 {"level":"info","message":"Activity recorded with for id: 39","meta":{"trace":"activityLog.js"},"timestamp":"Jun-10-2024 00:54:16"}
 {"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Jun-10-2024 00:54:18"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 02:58:58"}
+{"level":"info","message":"User login with userId: 8805e523-6cda-4fab-a1b0-ebcde496bd33","meta":{"trace":"login.js"},"timestamp":"Aug-12-2024 02:59:05"}
+{"level":"info","message":"Activity recorded with for id: 42","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 02:59:05"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 02:59:07"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 02:59:12"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 02:59:18"}
+{"level":"info","message":"User login with userId: ec5f6a94-655b-450c-94a4-2d818c1f1544","meta":{"trace":"login.js"},"timestamp":"Aug-12-2024 03:06:40"}
+{"level":"info","message":"Activity recorded with for id: 43","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:06:40"}
+{"level":"info","message":"User login with userId: ec5f6a94-655b-450c-94a4-2d818c1f1544","meta":{"trace":"login.js"},"timestamp":"Aug-12-2024 03:08:55"}
+{"level":"info","message":"Activity recorded with for id: 44","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:08:55"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:08:57"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:09:02"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:11:08"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:11:11"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:11:22"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:11:30"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:11:32"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:11:38"}
+{"level":"info","message":"Deleting user of userId:7440c9e7-25b0-4166-adb0-6c92cf69e1fa","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:11:43"}
+{"level":"info","message":"Delete user with userId: 7440c9e7-25b0-4166-adb0-6c92cf69e1fa","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:11:43"}
+{"level":"info","message":"Activity recorded with for id: 45","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:11:43"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:12:59"}
+{"level":"info","message":"Getting list of roles","meta":{"trace":"role.js"},"timestamp":"Aug-12-2024 03:13:02"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:02"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:05"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:12"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:13"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:14"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:24"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:35"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:51"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:55"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:56"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:57"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:58"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:14:59"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:14:59"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:15:00"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:15:00"}
+{"level":"info","message":"Insert new bgp peer with peerId: 6","meta":{"trace":"peering.js"},"timestamp":"Aug-12-2024 03:15:41"}
+{"level":"info","message":"Activity recorded with for id: 46","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:15:41"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 03:16:16"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:18:05"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_2.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:18:05"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:18:05"}
+{"level":"info","message":"Activity recorded with for id: 47","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:18:05"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 03:18:40"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:19:29"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:19:29"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:19:29"}
+{"level":"info","message":"Activity recorded with for id: 48","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:19:29"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 03:19:34"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 03:19:36"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:19:57"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_2.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:19:57"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:19:57"}
+{"level":"info","message":"Activity recorded with for id: 49","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:19:57"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:25:53"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_3.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:25:53"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:25:53"}
+{"level":"info","message":"Activity recorded with for id: 50","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:25:53"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:26:26"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_4.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:26:26"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:26:26"}
+{"level":"info","message":"Activity recorded with for id: 51","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:26:26"}
+{"level":"info","message":"User login with userId: ec5f6a94-655b-450c-94a4-2d818c1f1544","meta":{"trace":"login.js"},"timestamp":"Aug-12-2024 03:26:37"}
+{"level":"info","message":"Activity recorded with for id: 52","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:26:37"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 03:26:41"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 03:26:44"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:26:56"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_5.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:26:56"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:26:56"}
+{"level":"info","message":"Activity recorded with for id: 53","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:26:56"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:28:48"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_6.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:28:48"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:28:48"}
+{"level":"info","message":"Activity recorded with for id: 54","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:28:48"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:29:20"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_7.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:29:20"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:29:20"}
+{"level":"info","message":"Activity recorded with for id: 55","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:29:20"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:30:46"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_8.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:30:46"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:30:46"}
+{"level":"info","message":"Activity recorded with for id: 56","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:30:46"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:34:29"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_9.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:34:29"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:34:29"}
+{"level":"info","message":"Activity recorded with for id: 57","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:34:29"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:37:57"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_10.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:37:57"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:37:57"}
+{"level":"info","message":"Activity recorded with for id: 58","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:37:57"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:40:52"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_3.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:40:52"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:40:52"}
+{"level":"info","message":"Activity recorded with for id: 59","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:40:52"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:41:43"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_4.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:41:43"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:41:43"}
+{"level":"info","message":"Activity recorded with for id: 60","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:41:43"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:43:03"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_5.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:43:03"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:43:03"}
+{"level":"info","message":"Activity recorded with for id: 61","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:43:03"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 03:43:58"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:45:27"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_11.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:45:27"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:45:27"}
+{"level":"info","message":"Activity recorded with for id: 62","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:45:27"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:48:27"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_6.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:48:27"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:48:27"}
+{"level":"info","message":"Activity recorded with for id: 63","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:48:27"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:49:33"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_7.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:49:33"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:49:33"}
+{"level":"info","message":"Activity recorded with for id: 64","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:49:33"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:49:52"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_8.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:49:52"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:49:52"}
+{"level":"info","message":"Activity recorded with for id: 65","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:49:52"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:58:02"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_9.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:58:02"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:58:02"}
+{"level":"info","message":"Activity recorded with for id: 66","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:58:02"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:58:22"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_10.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:58:22"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 03:58:22"}
+{"level":"info","message":"Activity recorded with for id: 67","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 03:58:22"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:00:42"}
+{"level":"info","message":"Moving file bgp-ip.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip_11.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:00:42"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:00:42"}
+{"level":"info","message":"Activity recorded with for id: 68","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 04:00:42"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip(2).xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:49"}
+{"level":"info","message":"Moving file bgp-ip(2).xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip(2)_1.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:49"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip(2).xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:49"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 28","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 28","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 28","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 28","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 28","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 28","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Activity recorded with for id: 69","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 04:02:50"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 04:03:19"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:04:49"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_12.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:04:49"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:04:49"}
+{"level":"info","message":"Activity recorded with for id: 70","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 04:04:49"}
+{"level":"info","message":"Get latest runningNo for file: bgp-ip(2).xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:05:09"}
+{"level":"info","message":"Moving file bgp-ip(2).xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/bgp-ip(2)_2.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:05:09"}
+{"level":"info","message":"Update latest runningNo for file: bgp-ip(2).xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 04:05:09"}
+{"level":"info","message":"Activity recorded with for id: 71","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 04:05:09"}
+{"level":"info","message":"User login with userId: ec5f6a94-655b-450c-94a4-2d818c1f1544","meta":{"trace":"login.js"},"timestamp":"Aug-12-2024 23:09:37"}
+{"level":"info","message":"Activity recorded with for id: 72","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 23:09:37"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 23:09:43"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 23:09:46"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 23:10:36"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-12-2024 23:10:57"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 23:11:00"}
+{"level":"info","message":"Getting list of users","meta":{"trace":"user.js"},"timestamp":"Aug-12-2024 23:11:01"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 23:11:01"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 23:12:14"}
+{"level":"info","message":"Get latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:22:17"}
+{"level":"info","message":"Moving file invalid-ips.xlsx to D:/Downloads/Web Dev Project/ip-blackhole/Backend/src/invalid-ips_13.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:22:17"}
+{"level":"info","message":"Update latest runningNo for file: invalid-ips.xlsx","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:22:17"}
+{"level":"info","message":"Activity recorded with for id: 73","meta":{"trace":"activityLog.js"},"timestamp":"Aug-12-2024 23:22:17"}
+{"level":"error","message":"(conn=2877, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:23:22','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:23:22','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:23:22"}
+{"level":"error","meta":{"err":"(conn=2877, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:23:22','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:23:22"}
+{"level":"error","message":"(conn=2878, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:23:44','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:23:44','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:23:44"}
+{"level":"error","meta":{"err":"(conn=2878, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:23:44','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:23:44"}
+{"level":"error","message":"(conn=2882, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:26:20','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:26:20','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:26:20"}
+{"level":"error","meta":{"err":"(conn=2882, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:26:20','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:26:20"}
+{"level":"error","message":"(conn=2887, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:27:08','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:27:08','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:27:08"}
+{"level":"error","meta":{"err":"(conn=2887, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:27:08','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:27:08"}
+{"level":"error","message":"(conn=2892, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:28:12','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:28:12','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:28:12"}
+{"level":"error","meta":{"err":"(conn=2892, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:28:12','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:28:13"}
+{"level":"error","message":"(conn=2897, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:28:53','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:28:53','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:28:53"}
+{"level":"error","meta":{"err":"(conn=2897, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:28:53','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:28:53"}
+{"level":"error","message":"(conn=2902, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:30:58','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:30:58','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:30:58"}
+{"level":"error","meta":{"err":"(conn=2902, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:30:58','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:30:58"}
+{"level":"error","message":"(conn=2907, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:34','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:34','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:31:34"}
+{"level":"error","meta":{"err":"(conn=2907, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:34','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:31:34"}
+{"level":"error","message":"(conn=2908, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:35','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:35','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:31:35"}
+{"level":"error","meta":{"err":"(conn=2908, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:35','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:31:35"}
+{"level":"error","message":"(conn=2909, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:37','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:37','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-12-2024 23:31:37"}
+{"level":"error","meta":{"err":"(conn=2909, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-12 23:31:37','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-12-2024 23:31:37"}
+{"level":"info","message":"User login with userId: ec5f6a94-655b-450c-94a4-2d818c1f1544","meta":{"trace":"login.js"},"timestamp":"Aug-13-2024 01:48:37"}
+{"level":"info","message":"Activity recorded with for id: 74","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 01:48:37"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 01:48:39"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-13-2024 01:48:46"}
+{"level":"error","message":"(conn=2913, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-13 01:51:10','Remarks from API']","meta":{"err":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"fatal":false,"name":"SqlError","sql":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-13 01:51:10','Remarks from API']","sqlMessage":"Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1","sqlState":"22007"},"query":"INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?)","trace":"excelUpload.js"},"timestamp":"Aug-13-2024 01:51:10"}
+{"level":"error","meta":{"err":"(conn=2913, no: 1366, SQLState: 22007) Incorrect integer value: 'Admin' for column `ip_blacklist_dev`.`upload_session`.`uploadedBy` at row 1\nsql: INSERT INTO upload_session (uploadedBy, uploadedOn, remarks) VALUES (?, ?, ?) - parameters:['Admin','2024-08-13 01:51:10','Remarks from API']","trace":"ipManager.js"},"timestamp":"Aug-13-2024 01:51:10"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 29","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:00:02"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 29","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:00:02"}
+{"level":"info","message":"Activity recorded with for id: 75","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:00:02"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 30","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:14:17"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 30","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:14:17"}
+{"level":"info","message":"Activity recorded with for id: 76","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:14:17"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 31","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:14:24"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 31","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:14:24"}
+{"level":"info","message":"Activity recorded with for id: 77","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:14:24"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 32","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:20:26"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 32","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:20:26"}
+{"level":"info","message":"Activity recorded with for id: 78","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:20:26"}
+{"level":"info","message":"Activity recorded with for id: 79","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:24:52"}
+{"level":"info","message":"Activity recorded with for id: 80","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:25:12"}
+{"level":"info","message":"Activity recorded with for id: 81","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:29:51"}
+{"level":"info","message":"Activity recorded with for id: 82","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:30:32"}
+{"level":"info","message":"Activity recorded with for id: 83","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:30:40"}
+{"level":"info","message":"Activity recorded with for id: 84","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:30:50"}
+{"level":"info","message":"Insert upload data on upload_session for sessionId: 33","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:30:58"}
+{"level":"info","message":"Insert upload data on upload_data for sessionId: 33","meta":{"trace":"excelUpload.js"},"timestamp":"Aug-13-2024 02:30:58"}
+{"level":"info","message":"Activity recorded with for id: 85","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:30:58"}
+{"level":"info","message":"Getting list of uploaded data","meta":{"trace":"uploadData.js"},"timestamp":"Aug-13-2024 02:31:08"}
+{"level":"info","message":"Getting list of activity logs","meta":{"trace":"activityLog.js"},"timestamp":"Aug-13-2024 02:31:14"}
